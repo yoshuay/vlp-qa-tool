@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "functions": {
+    "api/webhook.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  },
+  "routes": [
+    { "src": "/health", "dest": "/api/health.js" },
+    { "src": "/api/webhook", "dest": "/api/webhook.js" }
+  ]
+}

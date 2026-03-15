@@ -1,0 +1,22 @@
+{
+  "name": "vlp-qa-webhook",
+  "version": "1.0.0",
+  "description": "DigiTech VLP QA — Jira webhook handler",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch api/webhook-dev.js",
+    "start": "node api/webhook-dev.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.7.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
